@@ -9,5 +9,5 @@ The objective of Fizzbuzz is to create a program with the following specificatio
 * In all other cases, the program simply returns the given number.
 ## Authors ##
 
-* Keran Braich
+* Keran Braich (https://github.com/ker-an)
 * Valentina Romeo
