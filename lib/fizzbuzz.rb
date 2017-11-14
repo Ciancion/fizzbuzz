@@ -1,14 +1,6 @@
-def fizzbuzz(number = 1)
-  if number <= 100
-    if number%3 == 0 && number%5 == 0
-      puts "fizzbuzz"
-    elsif number % 3 == 0
-      puts "fizz"
-    elsif number % 5 == 0
-      puts "buzz"
-    else
-      puts number.to_s
+def fizzbuzz(number)
+    return "fizzbuzz" if number % 3 == 0 && number%5 == 0
+    return "fizz" if number % 3 == 0
+    return "buzz" if number % 5 == 0
+    number.to_s
     end
-  fizzbuzz(number + 1)
-  end
-end
