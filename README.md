@@ -1,4 +1,4 @@
-#fizzbuzz#
+# fizzbuzz #
 
 The objective of Fizzbuzz is to create a program with the following specification:
 
